@@ -35,15 +35,15 @@ header {
     z-index: 99;
     margin-bottom: 20px;
     background:transparent;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(0, 0, 0, .5);
     backdrop-filter: blur(20px);
     transition: all .5s;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .8);
+    box-shadow: 0 0 30px rgba(100, 100, 100, .8);
 }
 
 .header2 {
     background:transparent;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(0, 0, 0, .5);
     backdrop-filter: blur(20px);
     position: fixed;
     display:flex;
@@ -111,7 +111,7 @@ header nav {
 
 .logo {
     font-size: 1.8em;
-    color:#162938;
+    color:#6bbfff;
     user-select:none;
     
 }
@@ -119,7 +119,7 @@ header nav {
 .navigation .navigation2 {
     position:relative;
     font-size: 1.3em;
-    color: #162938;
+    color: #6bbfff;
     text-decoration:none;
     font-weight: 500;
     margin-left: 40px;
@@ -132,9 +132,9 @@ header nav {
     bottom: -6px;
     width: 100%;
     height: 3px;
-    background: #162938;
+    background: #6bbfff;
     border-radius: 20px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 30px rgba(50, 50, 50, .5);
     transform-origin:right;
     transform: scaleX(0);
     transition: transform .5s;
@@ -156,10 +156,10 @@ about {
     justify-content: center;
     align-items: normal;
     background: transparent;
-    background-color: rgba(255, 255, 255, .7);
+    background-color: rgba(0, 0, 0, .5);
     border: none;
     border-radius: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 15px rgba(100, 100, 100, .5);
     flex-wrap: wrap;
     transition: .5s;
     margin: 10px;
@@ -167,27 +167,27 @@ about {
 }
 
 about:hover {
-    background-color:rgba(255, 255, 255, .8);
+    background-color:rgba(0, 0, 0, .7);
 }
 
 .title {
     display: flex;
     position: relative;
     top: 100px;
-    color: white;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, .9);
+    color: #6bbfff;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, .9);
 }
 
 .about-content {
     position: relative;
     display: flex;
     padding: 20px 20px 20px 20px;
-    color: #162938;
+    color: #6bbfff;
     background: transparent;
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(20, 20, 20, .6);
     margin: 20px;
     border-radius: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 15px rgba(100, 100, 100, .5);
     flex-direction:column;
     justify-content: center;
     align-items: center;
@@ -196,8 +196,8 @@ about:hover {
 
 .about-content:hover {
     border-radius: 15px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .7);
-    background-color: rgba(255, 255, 255, .9);
+    box-shadow: 0 0 30px rgba(100, 100, 100, .7);
+    background-color: rgba(30, 30, 30, .7);
 }
 
 docs {
@@ -211,10 +211,10 @@ docs {
     justify-content: center;
     align-items: normal;
     background: transparent;
-    background-color: rgba(255, 255, 255, .7);
+    background-color: rgba(0, 0, 0, .5);
     border: none;
     border-radius: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 15px rgba(100, 100, 100, .5);
     flex-wrap: wrap;
     transition: .5s;
     margin: 10px;
@@ -222,5 +222,5 @@ docs {
 }
 
 docs:hover {
-    background-color:rgba(255, 255, 255, .8);
+    background-color:rgba(0, 0, 0, .7);
 }
