@@ -74,13 +74,14 @@ header {
     top: 100px;
     font-weight: bold;
     font-size: 1.6em;
-    color: #162938;
+    color: #6bbfff;
 }
 
 .checkresp {
     border: none;
     display: none;
     background: none;
+    color: #6bbfff;
 }
 .restat {transform: scale(1);}
 .restat.active-checkresp {transform: scale(0);}
