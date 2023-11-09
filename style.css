@@ -35,7 +35,7 @@ header {
     z-index: 99;
     margin-bottom: 20px;
     background:transparent;
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .5);
     backdrop-filter: blur(20px);
     transition: all .5s;
     box-shadow: 0 0 30px rgba(0, 0, 0, .8);
@@ -43,7 +43,7 @@ header {
 
 .header2 {
     background:transparent;
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .5);
     backdrop-filter: blur(20px);
     position: fixed;
     display:flex;
@@ -148,7 +148,7 @@ header nav {
 about {
     position: absolute;
     display: flex;
-    top: 110px;
+    top: 140px;
     color: #162938;
     min-width: 96%;
     min-height: 200px;
@@ -168,6 +168,14 @@ about {
 
 about:hover {
     background-color:rgba(255, 255, 255, .8);
+}
+
+.title {
+    display: flex;
+    position: relative;
+    top: 100px;
+    color: white;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, .9);
 }
 
 .about-content {
@@ -195,7 +203,7 @@ about:hover {
 docs {
     position: absolute;
     display: flex;
-    top: 110px;
+    top: 140px;
     color: #162938;
     min-width: 96%;
     min-height: 200px;
