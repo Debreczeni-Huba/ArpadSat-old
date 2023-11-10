@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu"></html>
+<!--A tervek oldalunk-->
+<!--Ide gondoltam pl majd a 3d modelt, meg esetleg az ütemtervet, bár azt lehet, h külön oldalon kéne-->
+<html>
+    <background><img src="Desktop-Dark-Blue-Wallpapers.png"></background>
+    <head>
+        <title>ÁrpádSat - ÜTEMTERV</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="Cansat_key_visual_pillars.ico">
+    </head>
+    <body>
+        <header class="header">
+            <h2 class="logo"> ÁrpádSat</h2>
+            <nav class="navigation">
+                <a href="index.html" class="navigation2 navelem2"><ion-icon name="home"></ion-icon>Home</a>
+                <a href="about.html" class="navigation2 navelem2"><ion-icon name="card"></ion-icon>Rólunk</a>
+                <a href="docs.html" class="navigation2 navelem2"><ion-icon name="list"></ion-icon>Dokumentumok</a>
+                <a href="tervek.html" class="navigation2 navelem2"><ion-icon name="barbell"></ion-icon>Tervek</a>
+                <a href="tesztek.html" class="navigation2 navelem2">Tesztek</a>
+                <a href="calendar.html" class="navigation2 navelem2">Ütemterv</a>
+            </nav>
+            <button class="checkresp restat" onclick="respat()"><ion-icon name="menu"></ion-icon></button>
+            <button class="checkresp restat2" onclick="respat2()"><ion-icon name="close"></ion-icon></button>
+        </header>
+        <header2 class="header2">
+            <nav class="navigation">
+                <h3 class="navetext navelem">Navbar</h3>
+                <a href="index.html" class="navigation2 navelem"><ion-icon name="home"></ion-icon>    Home</a>
+                <a href="about.html" class="navigation2 navelem"><ion-icon name="card"></ion-icon>    Rólunk</a>
+                <a href="docs.html" class="navigation2 navelem"><ion-icon name="list"></ion-icon>    Dokumentumok</a>
+                <a href="tervek.html" class="navigation2 navelem"><ion-icon name="barbell"></ion-icon>    Tervek</a>
+                <a href="tesztek.html" class="navigation2 navelem">Tesztek</a>
+                <a href="calendar.html" class="navigation2 navelem">Ütemterv</a>
+            </nav>
+        </header2>
+        <h2 class="title">Ütemterv</h2>
+        <div class="calendar">
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23bddcff&ctz=Europe%2FBudapest&showTitle=1&mode=MONTH&src=YXJwYWRzYXRAZ21haWwuY29t&color=%23039BE5" style="border-width:0; border-radius: 10px; width: 100%;" height="600" frameborder="0" scrolling="yes"></iframe>
+        </div>
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

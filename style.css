@@ -225,3 +225,33 @@ docs {
 docs:hover {
     background-color:rgba(0, 0, 0, .7);
 }
+
+.calendar {
+    position: absolute;
+    display: flex;
+    top: 140px;
+    color: #162938;
+    width: 96%;
+    min-width: 500px;
+    min-height: 200px;
+    padding: 20px 20px 20px 20px;
+    justify-content: center;
+    align-items: normal;
+    background: transparent;
+    background-color: rgba(0, 0, 0, .5);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(100, 100, 100, .5);
+    flex-wrap: wrap;
+    transition: .5s;
+    margin: 10px;
+
+}
+
+@media only screen and (max-width: 510px) {
+    .calendar {left: -10px;}
+}
+
+.calendar:hover {
+    background-color:rgba(0, 0, 0, .7);
+}
