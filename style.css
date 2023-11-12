@@ -174,9 +174,15 @@ about:hover {
 .title {
     display: flex;
     position: relative;
-    top: 100px;
+    min-width: 100%;
+    padding: 10px;
+    justify-content: center;
     color: #6bbfff;
     text-shadow: 2px 2px 15px rgba(0, 0, 0, .9);
+}
+
+.sidetitle {
+    top: 90px;
 }
 
 .about-content {
@@ -199,6 +205,20 @@ about:hover {
     border-radius: 15px;
     box-shadow: 0 0 30px rgba(100, 100, 100, .7);
     background-color: rgba(30, 30, 30, .7);
+}
+
+.youtube{max-width: 1400px;}
+
+.about-intro {
+    min-width: 100%;
+}
+
+.about-content2 {
+    min-width: 95%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 docs {
