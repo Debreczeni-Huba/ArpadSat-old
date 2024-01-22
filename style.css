@@ -220,6 +220,7 @@ about:hover {
 
 .about-content2 {
     min-width: 95%;
+    max-width: 100%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
