@@ -229,7 +229,7 @@ docs {
     min-width: 96%;
     min-height: 200px;
     padding: 20px 20px 20px 20px;
-    justify-content: center;
+    justify-content: left;
     align-items: normal;
     background: transparent;
     background-color: rgba(0, 0, 0, .5);
