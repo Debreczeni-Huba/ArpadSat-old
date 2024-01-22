@@ -177,6 +177,7 @@ about:hover {
 .title {
     display: flex;
     position: relative;
+    top: 90px;
     min-width: 100%;
     padding: 10px;
     justify-content: center;
