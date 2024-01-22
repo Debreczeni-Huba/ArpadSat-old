@@ -171,7 +171,7 @@ about {
 
 }
 
-@media only screen and (max-width: 600px) {about {left: 0px;}}
+@media only screen and (max-width: 600px) {about {margin: 0px;}}
 
 about:hover {
     background-color:rgba(0, 0, 0, .7);
