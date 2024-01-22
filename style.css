@@ -202,6 +202,7 @@ about:hover {
     justify-content: center;
     align-items: center;
     transition: .5s;
+    text-align: center;
 }
 
 .about-content:hover {
