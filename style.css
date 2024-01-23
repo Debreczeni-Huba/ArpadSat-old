@@ -187,6 +187,9 @@ about:hover {
     color: #6bbfff;
     text-shadow: 2px 2px 15px rgba(0, 0, 0, .9);
 }
+.title2 {
+    top: 0px;
+}
 
 .sidetitle {
     top: 90px;
@@ -206,7 +209,7 @@ about:hover {
     justify-content: center;
     align-items: center;
     transition: .5s;
-    text-align: center;
+    text-align:center;
 }
 
 .about-content:hover {
