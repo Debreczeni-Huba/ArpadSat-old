@@ -209,8 +209,10 @@ about:hover {
     justify-content: center;
     align-items: center;
     transition: .5s;
-    text-align:center;
 }
+
+.about-content h2 {text-align: center;}
+.about-content h3 {text-align:justify;}
 
 .about-content:hover {
     border-radius: 15px;
