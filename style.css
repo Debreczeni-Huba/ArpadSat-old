@@ -266,6 +266,10 @@ about:hover {
     min-width: 100%;
 }
 
+.about-intro h2 {
+    margin-bottom: 10px;
+}
+
 .about-content2 {
     min-width: 95%;
     position: relative;
