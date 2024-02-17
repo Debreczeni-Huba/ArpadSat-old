@@ -1,2 +1,2 @@
 # ArpadSat
-Cansat versenyre nevezett csapatunk (ÁrpádSat) weboldala (egyelőre csak lesz)
+Cansat 2024 versenyre nevezett csapatunk (ÁrpádSat) weboldala
