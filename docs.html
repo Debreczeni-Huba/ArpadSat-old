@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="hu"></html>
+<html lang="en"></html>
 <!--A dokumentumok oldalunk-->
 <!--Ide jönnek a kiadott dokumentumaink-->
 <html>
     <background><img src="Desktop-Dark-Blue-Wallpapers.png"></background>
     <head>
-        <title>ÁrpádSat - DOKUMENTUMOK</title>
+        <title>ÁrpádSat - DOCS</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=0.8">
         <link rel="stylesheet" href="style.css">
@@ -16,11 +16,13 @@
             <img src="logo.jpg" width="205" height="41" class="logo">
             <nav class="navigation">
                 <a href="index.html" class="navigation2 navelem2"><ion-icon name="home"></ion-icon>Home</a>
-                <a href="about.html" class="navigation2 navelem2"><ion-icon name="card"></ion-icon>Rólunk</a>
-                <a href="docs.html" class="navigation2 navelem2"><ion-icon name="list"></ion-icon>Dokumentumok</a>
-                <a href="tervek.html" class="navigation2 navelem2"><ion-icon name="barbell"></ion-icon>Tervek</a>
-                <a href="tesztek.html" class="navigation2 navelem2"><ion-icon name="checkmark-done"></ion-icon> Tesztek</a>
-                <a href="calendar.html" class="navigation2 navelem2"><ion-icon name="calendar-number"></ion-icon> Ütemterv</a>
+                <a href="about.html" class="navigation2 navelem2"><ion-icon name="card"></ion-icon>About</a>
+                <a href="docs.html" class="navigation2 navelem2"><ion-icon name="list"></ion-icon>Docs</a>
+                <a href="tervek.html" class="navigation2 navelem2"><ion-icon name="barbell"></ion-icon>Plans</a>
+                <a href="tesztek.html" class="navigation2 navelem2"><ion-icon name="checkmark-done"></ion-icon> Tests</a>
+                <a href="calendar.html" class="navigation2 navelem2"><ion-icon name="calendar-number"></ion-icon> Schedule</a>
+                <button class="languageen navigation2 navelem2">EN</button>
+                <a href="hun/docs.html"><button class="languagehu navigation2 navelem2" onclick="clh()">HU</button></a>
             </nav>
             <button class="checkresp restat" onclick="respat()"><ion-icon name="menu"></ion-icon></button>
             <button class="checkresp restat2" onclick="respat2()"><ion-icon name="close"></ion-icon></button>
@@ -29,21 +31,23 @@
             <nav class="navigation">
                 <h3 class="navetext navelem">Navbar</h3>
                 <a href="index.html" class="navigation2 navelem"><ion-icon name="home"></ion-icon>    Home</a>
-                <a href="about.html" class="navigation2 navelem"><ion-icon name="card"></ion-icon>    Rólunk</a>
-                <a href="docs.html" class="navigation2 navelem"><ion-icon name="list"></ion-icon>    Dokumentumok</a>
-                <a href="tervek.html" class="navigation2 navelem"><ion-icon name="barbell"></ion-icon>    Tervek</a>
-                <a href="tesztek.html" class="navigation2 navelem"><ion-icon name="checkmark-done"></ion-icon> Tesztek</a>
-                <a href="calendar.html" class="navigation2 navelem"><ion-icon name="calendar-number"></ion-icon> Ütemterv</a>
+                <a href="about.html" class="navigation2 navelem"><ion-icon name="card"></ion-icon>    About</a>
+                <a href="docs.html" class="navigation2 navelem"><ion-icon name="list"></ion-icon>    Docs</a>
+                <a href="tervek.html" class="navigation2 navelem"><ion-icon name="barbell"></ion-icon>    Plans</a>
+                <a href="tesztek.html" class="navigation2 navelem"><ion-icon name="checkmark-done"></ion-icon> Tests</a>
+                <a href="calendar.html" class="navigation2 navelem"><ion-icon name="calendar-number"></ion-icon> Schedule</a>
+                <button class="languageen navigation2 navelem">EN</button>
+                <a href="hun/docs.html"><button class="languagehu navigation2 navelem" onclick="clh()">HU</button></a>
             </nav>
         </header2>
-        <h2 class="title">Dokumentumok</h2>
+        <h2 class="title">Documents</h2>
         <about class="about">
             <div class="about-intro docs-content">
-                <h3>A csapatunk által beadott critical design preview (CDR) dokumentum - PDF LETÖLTÉS</h3>
+                <h3>The critical design preview (CDR) document submitted by our team - PDF DOWNLOAD</h3>
                 <a href="ÁrpádSat_CanSat_CDR.pdf"><button class="dw-button"><ion-icon name="download"></ion-icon></button></a>
             </div>
             <div class="about-intro docs-content">
-                <h3>A csapatunk által beadott preliminary design review (PDR) dokumentum - PDF LETÖLTÉS</h3>
+                <h3>The preliminary design review (PDR) document submitted by our team - PDF DOWNLOAD</h3>
                 <a href="arpadsat_pdr.pdf"><button class="dw-button"><ion-icon name="download"></ion-icon></button></a>
             </div>
         </about>
