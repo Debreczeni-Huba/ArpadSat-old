@@ -364,3 +364,8 @@ docs:hover {
     width: 100px;
     height: 40px;
 }
+
+.megj {
+    justify-content:left;
+    margin-top: 0px;
+}
