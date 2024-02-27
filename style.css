@@ -224,7 +224,7 @@ about {
     padding: 20px 20px 20px 20px;
     color: #6bbfff;
     background: transparent;
-    background-color: rgba(20, 20, 20, .6);
+    background-color: rgba(15, 15, 15, .6);
     margin: 20px;
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(100, 100, 100, .5);
@@ -240,7 +240,7 @@ about {
 .about-content:hover {
     border-radius: 15px;
     box-shadow: 0 0 30px rgba(100, 100, 100, .7);
-    background-color: rgba(30, 30, 30, .7);
+    background-color: rgba(10, 10, 10, .7);
 }
 
 .docs-content {
@@ -249,7 +249,7 @@ about {
     padding: 20px 20px 20px 20px;
     color: #6bbfff;
     background: transparent;
-    background-color: rgba(20, 20, 20, .6);
+    background-color: rgba(15, 15, 15, .6);
     margin: 20px;
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(100, 100, 100, .5);
@@ -265,7 +265,7 @@ about {
 .docs-content:hover {
     border-radius: 15px;
     box-shadow: 0 0 30px rgba(100, 100, 100, .7);
-    background-color: rgba(30, 30, 30, .7);
+    background-color: rgba(10, 10, 10, .7);
 }
 .dw-button {
     background: transparent;
