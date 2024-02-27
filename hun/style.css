@@ -27,7 +27,7 @@ body {
 
  .languageen {
     background: transparent;
-    background-color: rgba(100,100, 100, 0.5);
+    background-color: rgba(100, 100, 100, 0.5);
     width: 60px;
     height: 40px;
     border-top-left-radius: 15px;
@@ -38,7 +38,7 @@ body {
 }
 .languagehu {
     background: transparent;
-    background-color: rgba(0, 75, 25, 0.5);
+    background-color: rgba(0, 75, 75, 0.5);
     color:black;
     width: 60px;
     height: 40px;
@@ -49,6 +49,11 @@ body {
     font-size: 2em;
     margin: 0px;
     left: -44px;
+}
+
+.ln {
+    position: relative;
+    top: -40px;
 }
 
 header {
@@ -76,6 +81,7 @@ header {
     backdrop-filter: blur(20px);
     position: fixed;
     display:flex;
+    justify-content:space-between;
     min-width: 100%;
     max-width: 100%;
     min-height: 200%;
@@ -174,6 +180,7 @@ header nav {
     transform-origin: left;
     transform: scaleX(1);
 }
+
 
 about {
     position: absolute;
