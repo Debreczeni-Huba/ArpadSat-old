@@ -304,6 +304,9 @@ about:hover {
     flex-direction: row;
 }
 
+.index-content {flex-direction: column;}
+.index-content h3 {margin-bottom: 10px;}
+
 docs {
     position: absolute;
     display: flex;
