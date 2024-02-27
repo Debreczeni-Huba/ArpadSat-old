@@ -51,6 +51,11 @@ body {
     left: -44px;
 }
 
+.ln {
+    position: relative;
+    top: -40px;
+}
+
 header {
     position:fixed;
     top: 0;
@@ -76,6 +81,7 @@ header {
     backdrop-filter: blur(20px);
     position: fixed;
     display:flex;
+    justify-content:space-between;
     min-width: 100%;
     max-width: 100%;
     min-height: 200%;
@@ -174,6 +180,7 @@ header nav {
     transform-origin: left;
     transform: scaleX(1);
 }
+
 
 about {
     position: absolute;
