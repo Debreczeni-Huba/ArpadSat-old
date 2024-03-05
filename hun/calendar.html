@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="hu"></html>
+<html lang="en"></html>
 <!--A tervek oldalunk-->
 <!--Ide gondoltam pl majd a 3d modelt, meg esetleg az ütemtervet, bár azt lehet, h külön oldalon kéne-->
 <html>
     <background><img src="Desktop-Dark-Blue-Wallpapers.png"></background>
     <head>
-        <title>ÁrpádSat - ÜTEMTERV</title>
+        <title>ÁrpádSat - SCHEDULE</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=0.7">
         <link rel="stylesheet" href="style.css">
@@ -16,13 +16,13 @@
             <img src="logo.jpg" width="205" height="41" class="logo">
             <nav class="navigation">
                 <a href="index.html" class="navigation2 navelem2"><ion-icon name="home"></ion-icon>Home</a>
-                <a href="about.html" class="navigation2 navelem2"><ion-icon name="card"></ion-icon>Rólunk</a>
-                <a href="docs.html" class="navigation2 navelem2"><ion-icon name="list"></ion-icon>Dokumentumok</a>
-                <a href="tervek.html" class="navigation2 navelem2"><ion-icon name="barbell"></ion-icon>Tervek</a>
-                <a href="tesztek.html" class="navigation2 navelem2"><ion-icon name="checkmark-done"></ion-icon> Tesztek</a>
-                <a href="calendar.html" class="navigation2 navelem2"><ion-icon name="calendar-number"></ion-icon> Ütemterv</a>
-                <a href="../calendar.html"><button class="languageen navigation2 navelem2">EN</button></a>
-                <button class="languagehu navigation2 navelem2">HU</button>
+                <a href="about.html" class="navigation2 navelem2"><ion-icon name="card"></ion-icon>About</a>
+                <a href="docs.html" class="navigation2 navelem2"><ion-icon name="list"></ion-icon>Docs</a>
+                <a href="tervek.html" class="navigation2 navelem2"><ion-icon name="barbell"></ion-icon>Plans</a>
+                <a href="tesztek.html" class="navigation2 navelem2"><ion-icon name="checkmark-done"></ion-icon> Tests</a>
+                <a href="calendar.html" class="navigation2 navelem2"><ion-icon name="calendar-number"></ion-icon> Schedule</a>
+                <button class="languageen navigation2 navelem2">EN</button>
+                <a href="hun/calendar.html"><button class="languagehu navigation2 navelem2" onclick="clh()">HU</button></a>
             </nav>
             <button class="checkresp restat" onclick="respat()"><ion-icon name="menu"></ion-icon></button>
             <button class="checkresp restat2" onclick="respat2()"><ion-icon name="close"></ion-icon></button>
@@ -31,18 +31,18 @@
             <nav class="navigation">
                 <h3 class="navetext navelem">Navbar</h3>
                 <a href="index.html" class="navigation2 navelem"><ion-icon name="home"></ion-icon>    Home</a>
-                <a href="about.html" class="navigation2 navelem"><ion-icon name="card"></ion-icon>    Rólunk</a>
-                <a href="docs.html" class="navigation2 navelem"><ion-icon name="list"></ion-icon>    Dokumentumok</a>
-                <a href="tervek.html" class="navigation2 navelem"><ion-icon name="barbell"></ion-icon>    Tervek</a>
-                <a href="tesztek.html" class="navigation2 navelem"><ion-icon name="checkmark-done"></ion-icon> Tesztek</a>
-                <a href="calendar.html" class="navigation2 navelem"><ion-icon name="calendar-number"></ion-icon> Ütemterv</a>
+                <a href="about.html" class="navigation2 navelem"><ion-icon name="card"></ion-icon>    About</a>
+                <a href="docs.html" class="navigation2 navelem"><ion-icon name="list"></ion-icon>    Docs</a>
+                <a href="tervek.html" class="navigation2 navelem"><ion-icon name="barbell"></ion-icon>    Plans</a>
+                <a href="tesztek.html" class="navigation2 navelem"><ion-icon name="checkmark-done"></ion-icon> Tests</a>
+                <a href="calendar.html" class="navigation2 navelem"><ion-icon name="calendar-number"></ion-icon> Schedule</a>
             </nav>
             <nav class="navigation ln">
-                <a href="../calendar.html"><button class="languageen navigation2 navelem2">EN</button></a>
-                <button class="languagehu navigation2 navelem2">HU</button>
+                <button class="languageen navigation2 navelem2">EN</button>
+                <a href="hun/calendar.html"><button class="languagehu navigation2 navelem2" onclick="clh()">HU</button></a>
             </nav>
         </header2>
-        <h2 class="title">Ütemterv</h2>
+        <h2 class="title">Our scheduled plans</h2>
         <div class="calendar">
             <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23bddcff&ctz=Europe%2FBudapest&showTitle=1&mode=MONTH&src=YXJwYWRzYXRAZ21haWwuY29t" style="border-width:0; border-radius: 10px; width: 100%; min-width: 450px; background-color:black;" height="600" frameborder="0" scrolling="yes"></iframe>
         </div>

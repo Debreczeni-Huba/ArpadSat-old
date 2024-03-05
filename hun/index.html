@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hu"></html>
+<html lang="en"></html>
 <!--A kezdőoldalunk-->
 <!--Ide majd jöhet sztem pl egy fotó mindnyájunkról, ami kitölti a helyet, meg azt a célt szolgálja majd sztem, h jobban áttekinthető legyen az oldal.-->
 <html>
@@ -16,13 +16,13 @@
             <img src="logo.jpg" width="205" height="41" class="logo">
             <nav class="navigation">
                 <a href="index.html" class="navigation2 navelem2"><ion-icon name="home"></ion-icon>Home</a>
-                <a href="about.html" class="navigation2 navelem2"><ion-icon name="card"></ion-icon>Rólunk</a>
-                <a href="docs.html" class="navigation2 navelem2"><ion-icon name="list"></ion-icon>Dokumentumok</a>
-                <a href="tervek.html" class="navigation2 navelem2"><ion-icon name="barbell"></ion-icon>Tervek</a>
-                <a href="tesztek.html" class="navigation2 navelem2"><ion-icon name="checkmark-done"></ion-icon> Tesztek</a>
-                <a href="calendar.html" class="navigation2 navelem2"><ion-icon name="calendar-number"></ion-icon> Ütemterv</a>
-                <a href="../index.html"><button class="languageen navigation2 navelem2">EN</button></a>
-                <button class="languagehu navigation2 navelem2">HU</button>
+                <a href="about.html" class="navigation2 navelem2"><ion-icon name="card"></ion-icon>About</a>
+                <a href="docs.html" class="navigation2 navelem2"><ion-icon name="list"></ion-icon>Docs</a>
+                <a href="tervek.html" class="navigation2 navelem2"><ion-icon name="barbell"></ion-icon>Plans</a>
+                <a href="tesztek.html" class="navigation2 navelem2"><ion-icon name="checkmark-done"></ion-icon> Tests</a>
+                <a href="calendar.html" class="navigation2 navelem2"><ion-icon name="calendar-number"></ion-icon> Schedule</a>
+                <button class="languageen navigation2 navelem2">EN</button>
+                <a href="hun/index.html"><button class="languagehu navigation2 navelem2" onclick="clh()">HU</button></a>
             </nav>
             <button class="checkresp restat" onclick="respat()"><ion-icon name="menu"></ion-icon></button>
             <button class="checkresp restat2" onclick="respat2()"><ion-icon name="close"></ion-icon></button>
@@ -31,54 +31,53 @@
             <nav class="navigation">
                 <h3 class="navetext navelem">Navbar</h3>
                 <a href="index.html" class="navigation2 navelem"><ion-icon name="home"></ion-icon>    Home</a>
-                <a href="about.html" class="navigation2 navelem"><ion-icon name="card"></ion-icon>    Rólunk</a>
-                <a href="docs.html" class="navigation2 navelem"><ion-icon name="list"></ion-icon>    Dokumentumok</a>
-                <a href="tervek.html" class="navigation2 navelem"><ion-icon name="barbell"></ion-icon>    Tervek</a>
-                <a href="tesztek.html" class="navigation2 navelem"><ion-icon name="checkmark-done"></ion-icon> Tesztek</a>
-                <a href="calendar.html" class="navigation2 navelem"><ion-icon name="calendar-number"></ion-icon> Ütemterv</a>
+                <a href="about.html" class="navigation2 navelem"><ion-icon name="card"></ion-icon>    About</a>
+                <a href="docs.html" class="navigation2 navelem"><ion-icon name="list"></ion-icon>    Docs</a>
+                <a href="tervek.html" class="navigation2 navelem"><ion-icon name="barbell"></ion-icon>    Plans</a>
+                <a href="tesztek.html" class="navigation2 navelem"><ion-icon name="checkmark-done"></ion-icon> Tests</a>
+                <a href="calendar.html" class="navigation2 navelem"><ion-icon name="calendar-number"></ion-icon> Schedule</a>
             </nav>
             <nav class="navigation ln">
-                <a href="../index.html"><button class="languageen navigation2 navelem2">EN</button></a>
-                <button class="languagehu navigation2 navelem2">HU</button>
+                <button class="languageen navigation2 navelem2">EN</button>
+                <a href="hun/index.html"><button class="languagehu navigation2 navelem2" onclick="clh()">HU</button></a>
             </nav>
         </header2>
-        <h2 class="title">Főoldal</h2>
+        <h2 class="title">Home page</h2>
         <about class="about">
             <div class="about-intro about-content">
-                <h2>Üdvözöljük a CanSat versenyre nevezett ÁrpádSat csapat honlapján!</h2>
-                <h3>Az ÁrpádSat csapat a CanSat versenyen vesz részt, mely egy a középiskolások számára tervezett, az űripart bemutató és népszerűsítő verseny. Az Európai Űrügynökség (ESA) azzal a céllal hirdeti meg minden évben, hogy a diákok megtapasztalhassák, hogy milyen részt venni egy valódi űr-projektben. A jelentkezők rengeteg tapasztalattal gazdagodnak, pl. rádiótechnikában, áramkörök tervezésében, emellett elsajátíthatják az űripar által elvárt precizitást. A versenyzők rengeteg hasonló érdeklődésű diákkal találkozhatnak, a döntő nyertesei nemzetközi kapcsolaikat gyarapíthatják a verseny folyamán. <br>
-                    A versenyen 3-6 fős középiskolás csapatok vesznek részt. <br>
-                    Mi maga a CanSat? <br>
-                    A CanSat egy valós műhold szimulációja, amely minden olyan rendszerrel rendelkezik, amivel egy műholdnak rendelkeznie kell. Térfogata megegyezik egy dobozos üdítőével (innen ered a neve). A kihívás a diákok számára az, hogy ebbe a kis térbe bele tudják tervezni az összes alrendszert, ami megtalálható egy műholdon:
-                    Tápegység, szenzorok, kommunikációs rendszer.
-                    A versenyen a CanSat műholdakat rakétával nagyjából 1km-es magasságba juttatják. Itt a hordozó eszközről leválva megkezdik a küldetésüket, ami lehet egy tudományos kísérlet vagy egy technológiai demonstráció. <br>
-                    A biztonságos landolást követően a csapatok elemzik és bemutatják a gyűjtött adatokat. <br> Bővebben a <a href="https://www.cansatverseny.hu/mi-a-cansat">CanSat honlapján</a> tájékozódhatnak a versenyről.
+                <h2>Welcome to the website of the ÁrpádSat team, which entered the CanSat competition!</h2>
+                <h3>The ÁrpádSat team participates in the CanSat competition, which is a competition designed for high school students to present and promote the space industry. The European Space Agency (ESA) announces it every year with the aim of allowing students to experience what it's like to participate in a real space project. Applicants gain a lot of experience, e.g. in radio technology, circuit design, and can also learn the precision required by the space industry. Competitors can meet a lot of students with similar interests, and the winners of the final can increase their international connections during the competition. <br>
+                    What is CanSat?<br>
+                    CanSat is a simulation of a real satellite with all the systems a satellite should have. Its volume is the same as that of a can of soda (hence its name). The challenge for the students is to design all the subsystems that can be found on a satellite in this small space:
+                     Power supply, sensors, communication system.
+                     In the competition, the CanSat satellites are launched by rocket to a height of approximately 1 km. Here, they detach from the carrier and begin their mission, which may be a scientific experiment or a technology demonstration. <br>
+                     After a safe landing, the teams analyze and present the collected data. <br> You can find out more about the competition on the <a href="https://www.cansatverseny.hu/mi-a-cansat">CanSat website</a>
                 </h3>
             </div>
             <div class="about-intro about-content">
-                <h2>És akkor mit csinál a mi csapatunk?</h2>
-                <h3>Az ÁrpádSat műhold gyakorlatilag a koncepció szerint fog szélerősséget, páratartalmat, hőmérsékletet, légnyomást mérni. Meg fogja állapítani helyzetét egy gps szenzor segítségével és mindezeket egy LoRa rádiómodul segítségével továbbítja a földi állomásra. Bővebben itt a weboldalon a tervekből, tesztekből és leginkább a dokumentumok oldalon már közzétett CDR dokumentumból tájékozódhatnak a küldetésünkről és koncepciónkról.</h3>
+                <h2>And what our team is doing?</h2>
+                <h3>The ÁrpádSat satellite will measure the strength and the direction of the wind, temperature, humidity and air pressure. It will determine its position with the help of a GPS sensor and transmit all this to the ground station with the help of a LoRa radio module. Here on the website, you can find out more about our mission and concept from the plans, tests and especially from the CDR document already published on the documents page.</h3>
             </div>
             <div class="about-intro about-content">
-                <h2>Hírek</h2>
+                <h2>News</h2>
                 <div class="about-content2 about-content index-content">
-                    <h3>A rádió működési problémáját is megoldottuk, így a CanSat egész elektronikája jól működik!</h3>
-                    <iframe width="378" height="162" src="https://www.youtube.com/embed/hTL9g6yl2gE?si=u1YCzrsQ_BCW7iby" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
+                    <h3>We also fixed the radio operation problem, so all the electronics on the CanSat are working fine!</h3>
+                    <iframe width="378" height="213" src="https://www.youtube.com/embed/hTL9g6yl2gE?si=u1YCzrsQ_BCW7iby" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
                 </div>
                 <div class="about-content2 about-content index-content">
-                    <iframe width="378" height="162" src="https://www.youtube.com/embed/HsK_RBZq-NE?si=OezyLmC9DPDZnis7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
+                    <iframe width="378" height="213" src="https://www.youtube.com/embed/HsK_RBZq-NE?si=OezyLmC9DPDZnis7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
                 </div>
                 <div class="about-content2 about-content index-content">
-                    <iframe width="378" height="162" src="https://www.youtube.com/embed/VyTabN4vBxI?si=ScIlHRPqfKzRSvL2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
+                    <iframe width="378" height="213" src="https://www.youtube.com/embed/VyTabN4vBxI?si=ScIlHRPqfKzRSvL2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
                 </div>
                 <div class="about-content2 about-content index-content">
-                    <iframe width="378" height="162" src="https://www.youtube.com/embed/qk9Nb_YrgpE?si=4UL1FeDBOCDLVttk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="378" height="213" src="https://www.youtube.com/embed/qk9Nb_YrgpE?si=4UL1FeDBOCDLVttk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="about-content2 about-content index-content">
-                    <iframe width="378" height="162" src="https://www.youtube.com/embed/Ov0oo_-O9Eo?si=JZ82pHnnGKAYh7ld" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="378" height="213" src="https://www.youtube.com/embed/Ov0oo_-O9Eo?si=JZ82pHnnGKAYh7ld" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="about-content2 about-content index-content">
-                    <iframe width="378" height="162" src="https://www.youtube.com/embed/h6hZgQY3ry4?si=8omyC5HgKnmkFzUD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="378" height="213" src="https://www.youtube.com/embed/h6hZgQY3ry4?si=8omyC5HgKnmkFzUD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </about>

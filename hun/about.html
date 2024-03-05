@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="hu"></html>
+<html lang="en"></html>
 <!--A rólunk oldal-->
 <!--Ide jönnek a mindenféle elérhetőségeink, felhasznált szoftverek (pl most a weboldal esetében a netlify, meg a github), stb.-->
 <html>
     <background><img src="Desktop-Dark-Blue-Wallpapers.png"></background>
     <head>
-        <title>ÁrpádSat - RÓLUNK</title>
+        <title>ÁrpádSat - ABOUT</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=0.8">
         <link rel="stylesheet" href="style.css">
@@ -16,13 +16,13 @@
             <img src="logo.jpg" width="205" height="41" class="logo">
             <nav class="navigation">
                 <a href="index.html" class="navigation2 navelem2"><ion-icon name="home"></ion-icon>Home</a>
-                <a href="about.html" class="navigation2 navelem2"><ion-icon name="card"></ion-icon>Rólunk</a>
-                <a href="docs.html" class="navigation2 navelem2"><ion-icon name="list"></ion-icon>Dokumentumok</a>
-                <a href="tervek.html" class="navigation2 navelem2"><ion-icon name="barbell"></ion-icon>Tervek</a>
-                <a href="tesztek.html" class="navigation2 navelem2"><ion-icon name="checkmark-done"></ion-icon> Tesztek</a>
-                <a href="calendar.html" class="navigation2 navelem2"><ion-icon name="calendar-number"></ion-icon> Ütemterv</a>
-                <a href="../about.html"><button class="languageen navigation2 navelem2">EN</button></a>
-                <button class="languagehu navigation2 navelem2">HU</button>
+                <a href="about.html" class="navigation2 navelem2"><ion-icon name="card"></ion-icon>About</a>
+                <a href="docs.html" class="navigation2 navelem2"><ion-icon name="list"></ion-icon>Docs</a>
+                <a href="tervek.html" class="navigation2 navelem2"><ion-icon name="barbell"></ion-icon>Plans</a>
+                <a href="tesztek.html" class="navigation2 navelem2"><ion-icon name="checkmark-done"></ion-icon> Tests</a>
+                <a href="calendar.html" class="navigation2 navelem2"><ion-icon name="calendar-number"></ion-icon> Schedule</a>
+                <button class="languageen navigation2 navelem2">EN</button>
+                <a href="hun/about.html"><button class="languagehu navigation2 navelem2" onclick="clh()">HU</button></a>
             </nav>
             <button class="checkresp restat" onclick="respat()"><ion-icon name="menu"></ion-icon></button>
             <button class="checkresp restat2" onclick="respat2()"><ion-icon name="close"></ion-icon></button>
@@ -31,58 +31,58 @@
             <nav class="navigation">
                 <h3 class="navetext navelem">Navbar</h3>
                 <a href="index.html" class="navigation2 navelem"><ion-icon name="home"></ion-icon>    Home</a>
-                <a href="about.html" class="navigation2 navelem"><ion-icon name="card"></ion-icon>    Rólunk</a>
-                <a href="docs.html" class="navigation2 navelem"><ion-icon name="list"></ion-icon>    Dokumentumok</a>
-                <a href="tervek.html" class="navigation2 navelem"><ion-icon name="barbell"></ion-icon>    Tervek</a>
-                <a href="tesztek.html" class="navigation2 navelem"><ion-icon name="checkmark-done"></ion-icon> Tesztek</a>
-                <a href="calendar.html" class="navigation2 navelem"><ion-icon name="calendar-number"></ion-icon> Ütemterv</a>
+                <a href="about.html" class="navigation2 navelem"><ion-icon name="card"></ion-icon>    About</a>
+                <a href="docs.html" class="navigation2 navelem"><ion-icon name="list"></ion-icon>    Docs</a>
+                <a href="tervek.html" class="navigation2 navelem"><ion-icon name="barbell"></ion-icon>    Plans</a>
+                <a href="tesztek.html" class="navigation2 navelem"><ion-icon name="checkmark-done"></ion-icon> Tests</a>
+                <a href="calendar.html" class="navigation2 navelem"><ion-icon name="calendar-number"></ion-icon> Schedule</a>
             </nav>
             <nav class="navigation ln">
-                <a href="../about.html"><button class="languageen navigation2 navelem2">EN</button></a>
-                <button class="languagehu navigation2 navelem2">HU</button>
+                <button class="languageen navigation2 navelem2">EN</button>
+                <a href="hun/about.html"><button class="languagehu navigation2 navelem2" onclick="clh()">HU</button></a>
             </nav>
         </header2>
-        <h2 class="title sidetitle">Rólunk</h2>
+        <h2 class="title sidetitle">About us</h2>
         <about class="about">
             <!--Itt vannak az elérhetőségeink, majd gondolom kellenek fotók, egyelőre még nem sokakhoz írtam oda konkrét feladatot-->
             <about-intro class="about-intro about-content">
                 <h4>
-                    Mi vagyunk a CanSat versenyre nevezett ÁrpádSat csapat. Mindannyian az Óbudai Árpád Gimnázium 9.B osztályos tanulói vagyunk. A feladatokat együtt végezzük, segítünk egymásnak, de azért megvan hogy kinek mi a fő feladatköre, amiért felel.
+                    We are the ÁrpádSat team norminated for the CanSat competition. We are all students of the Óbudai Árpád Gimnázium's 9B class. We do the tasks together, we aid each other, but we still know who has the main tasks and what they are responsible for.
                 </h4>
             </about-intro>
             <div class="about-content2 about-content">
-                <iframe width="378" height="162" src="https://www.youtube.com/embed/Ov0oo_-O9Eo?si=JZ82pHnnGKAYh7ld" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="378" height="213" src="https://www.youtube.com/embed/Ov0oo_-O9Eo?si=JZ82pHnnGKAYh7ld" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <csapattagok class="about-content about-content2 csapattagok">
-                <h3 class="title title2">Csapattagok</h3>
+                <h3 class="title title2">Team members</h3>
                 <gabor class="gabor about-content">
                     <h3>Bognár Gábor</h3>
-                    <p>Én csinálom a CanSat hardveres részének tervezését és összeszerelését.</p>
+                    <p>I write, and translate the CDR document, and I plan the parts of the project that involves hardware.</p>
                     <p>E-mail: <a href="mailto:gabor8268@gmail.com">gabor8268@gmail.com</a></p>
                 </gabor>
                 <huba class="huba about-content">
                     <h3>Debreczeni Huba</h3>
-                    <p>Én csinálom a csapat outreach feladatait, a weboldal programozását és a 3D rendereket a CanSat-ünkről.</p>
+                    <p>I carry out the team's outreach duties, and the 3D renders. I am also responsible for the website and social media channels.</p>
                     <p>E-mail: <a href="mailto:huba.debreczeni@gmail.com">huba.debreczeni@gmail.com</a></p>
                 </huba>
                 <marci class="marci about-content">
                     <h3>Jamniczky Márton</h3>
-                    <p>Én felelek a CanSat-ünk visszatérési rendszeréért, az ejtőernyő tervezéséért és gyártásáért.</p>
+                    <p>I manage the return system, the planning and the production of our CanSat’s parachute.</p>
                     <p>E-mail: <a href="mailto:jamniczky.marton@gmail.com">jamniczky.marton@gmail.com</a></p>
                 </marci>
                 <zsolti class="zsolti about-content">
                     <h3>Mihály Zsolt</h3>
-                    <p>Én felelek a CanSat és a földi állomás szoftveres részéért.</p>
+                    <p> I code the CanSat’s and the ground station’s software.</p>
                     <p>E-mail: <a href="mailto:m.zsolti06@gmail.com">m.zsolti06@gmail.com</a></p>
                 </zsolti>
                 <mk class="mk about-content">
                     <h3>Miklósi-Kovács Dániel</h3>
-                    <p>Én felelek a munka koordinálásáért, a csapat összefogásáért és a CanSat teszteléséért, valamint segítek a hardver szerelésében.</p>
+                    <p> I coordinate our team, help with the assembling of the hardware and lead the overlays in the project.</p>
                     <p>E-mail: <a href="mailto:miklosikovacs.daniel@gmail.com">miklosikovacs.daniel@gmail.com</a></p>
                 </mk>
                 <mentor class="mentor about-content">
                     <h3>Neumayerné Manger Viktória Zsuzsanna</h3>
-                    <p>Csapatunk mentora, aki a csapat előrehaladását, valamint a fizikai számításaink helyességét ellenőrzi.</p>
+                    <p>Our mentor, who assists the team in checking the physical formulas that we use.</p>
                     <p>E-mail: <a href="">...</a></p>
                 </mentor>
             </csapattagok>
@@ -102,11 +102,11 @@
                 </youtube>
             </kapcsolatok>
             <github class="origamma about-content">
-                <h3>Ennek a weboldalnak a forráskódja egy GitHub repository-ban van:</h3>
+                <h3>The source code of this website is in a GitHub repository:</h3>
                 <a href="https://github.com/Debreczeni-Huba/ArpadSat">ArpadSat repository GitHub</a>
             </github>
             <netlify class="netlify about-content">
-                <h3>A weboldalnak a linkjét a netlify szolgáltatja a GitHub repository felhasználásával:</h3>
+                <h3>The link to the website is provided by netlify using the GitHub repository:</h3>
                 <a href="https://www.netlify.com/">Netlify</a>
             </netlify>
         </about>
